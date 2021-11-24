@@ -1,4 +1,4 @@
-{{ config(materialize="table") }}
+{{ config(materialized="table") }}
 
 with CASES_STAT as(
 select

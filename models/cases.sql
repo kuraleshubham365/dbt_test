@@ -1,4 +1,6 @@
-{{ config(materialize="table") }}
+{{ config(
+    materialized="table"
+)}}
 
 with CASES as (
 select
