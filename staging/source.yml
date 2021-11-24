@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+    -name: Snow_SRC
+    database: FIVETRAN_INTERVIEW_DB
+    tables:
+        -name: GOOGLE_SHEETS.COVID_19_INDONESIA_SHUBHAM_KURALE

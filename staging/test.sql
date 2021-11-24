@@ -1,0 +1,1 @@
+select * from {{ source('Snow_SRC', 'GOOGLE_SHEETS.COVID_19_INDONESIA_SHUBHAM_KURALE') }}
