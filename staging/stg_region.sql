@@ -1,3 +1,5 @@
+{{ config(materialize="table") }}
+
 with REGION as(
 select 
     Date as DATE,
