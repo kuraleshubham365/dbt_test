@@ -1,3 +1,5 @@
+{{ config(materialize="table") }}
+
 with CASES_STAT as(
 select
     Date as DATE,
