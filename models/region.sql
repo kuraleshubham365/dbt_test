@@ -1,4 +1,4 @@
-{{ config(materialize="view") }}
+{{ config(materialize="table") }}
 
 with REGION as(
 select 
