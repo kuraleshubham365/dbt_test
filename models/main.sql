@@ -2,7 +2,7 @@
 
 with Main as(
 select 
-    Date as DATE,
+    try_cast(Date as DATE),
     New_Cases as NEW_CASES,
     New_Deaths as NEW_DEATHS,
     New_Active_Cases as ACTIVE_CASES,
