@@ -12,8 +12,6 @@ select
     Total_Active_Cases as TOTAL_ACTIVE_CASES,
     New_Cases_per_Million as NEW_CASES_PER_M,
     Total_Cases_per_Million as TOTAL_CASES_PER_M,
-    new_cases_per_million as NEW_CASES_PER_M,
-    total_cases_per_million as TOTAL_CASES_PER_M,
     new_deaths_per_million as NEW_DEATHS_PER_M,
     total_deaths_per_million as TOTAL_DEATHS_PER_M,
     case_fatality_rate as CASE_FATALITY_RATE,
